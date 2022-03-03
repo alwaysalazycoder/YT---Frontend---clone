@@ -1,0 +1,209 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+.screen{
+    display: flex;
+}
+
+
+/*  🎇🎇🎇 side bar designing */
+.verticalnavbar{
+    width: 5.5vw;
+    height: 235vh;
+    background-color: rgb(31, 29, 29);
+    position: fixed;
+}
+.setimg{
+    width: 5.5vw;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+
+
+/* 🎇🏋🏽‍♀️🎇🎇  vertical content designing */
+.verticalcontent{
+    margin-left: 5.5vw;
+    width: 94.5vw;
+}
+
+
+/*  🔥🔥🔥🔥🔥 header */
+header{
+    display: flex;
+    width: 94.5;
+    height: 10vh;
+    background-color: rgb(31, 29, 29);
+
+    align-items: center;
+}
+.logo>img{
+    width: 250px;
+}
+.input{
+    display: flex;
+    width: 60vw;
+}
+.input>input{
+    background: black;
+    color: wheat;
+    border: none;
+    width: 40vw;
+    height: 5vh;
+    margin: 1px;
+    margin-left: 30px;
+    padding-left: 14px;
+    
+}
+.search-button>img{
+    /* height: 5vh; */
+    width: 1.8vw;
+    margin: 5px;
+}
+.logins{
+    display: flex;
+    width: 10vw;
+    justify-content: space-between;
+}
+.bells{
+    width: 1.8vw;
+}
+.login-image{
+    width: 2vw;
+    border-radius: 50%;
+}
+
+
+
+/* 🔥🔥🔥🔥 second nav bar below the search of youtube */
+.heading{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 94.5vw;
+    height: 10vh;
+    background-color: rgb(31, 29, 29);
+
+}
+.data.white-hover{
+    height: 32px;
+    color: black;
+    background-color: white; 
+}
+.data{
+    display: flex;
+    padding: 0px 10px;
+    margin: 15px 9px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 32px;
+    min-width: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#selected-with-white{
+    height: 32px;
+    min-width: 14px;
+    color: black;
+    background: white;
+}
+
+
+
+/* 🔥🔥🔥 yt music ad part  */
+.music-ad{
+    width: 94.5;
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    padding: 40px;
+    margin-bottom: 0px;
+}
+.music-logo-image{
+    width: 200px;
+}
+.music-ad p{
+    font-size:34px;
+    padding: 0px 20px;
+    font-weight: 600;
+}
+.button-get-it button{
+    width: 145px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-top: 15px;
+    /* font-size: 15px; */
+    font-weight: bold;
+}
+
+
+
+/* =============================================================================================== */
+/* 🔥🔥🔥 videos section */ 
+.videosection{
+    padding: 20px 0px;
+    width: 94.5;
+    height: 165vh;
+    background-color: gray;
+    background-color: black;
+}
+.videos{
+    display: flex;
+    width: 94.5vw;
+    height: 50vh;
+    /* padding: 30px 2px; */
+    align-items:center;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    background-color: black;
+}
+.video{
+
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    margin: 0vw 1vw;
+}
+.details{
+    display: flex;
+    width: 21vw;
+    margin-top: 10px;
+}
+.details-channel{
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    margin: 0px 4px;
+}
+.white-details{
+    margin-bottom: 8px;
+    color: white;
+}
+.gray-details{
+    color: rgb(104, 103, 103);
+
+}
+.video-image img{
+    width: 270px;
+}
+.channel-image img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 2px;
+}
